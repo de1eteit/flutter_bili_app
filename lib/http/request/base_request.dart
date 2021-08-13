@@ -11,7 +11,8 @@ abstract class BaseRequest {
   var pathParams;
   var useHttps = false;
   String authority() {
-    return "localhost:8080";
+    return "192.168.31.7:8080";
+    // return "localhost:8080";
   }
 
   HttpMethod httpMethod();
